@@ -1,0 +1,51 @@
+/* Add your CSS here to style your father's day page */
+#wrapper{
+    background: #AEECEF;
+    max-width: 1000px;
+    margin: auto;
+    border: 3px solid #53599A;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
+}
+
+img{
+    max-width: 270px;
+    border-radius: 50px;
+    border: 5px solid #53599A;
+    margin : 10px;
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section{
+    background: lightblue;
+    border: 3px solid #53599A;
+    margin: 10px;
+    border-radius: 10px;
+    grid-column: 1/4;
+}
+
+section p{
+    margin: 10px;
+}
+
+section h2{
+    margin: 10px;
+}
+
+header{
+    background: darkcyan;
+    border-radius: 5px;
+}
+
+h1{
+    grid-row: 1;
+    grid-column: 1 / 4;
+    text-align: center;
+}
